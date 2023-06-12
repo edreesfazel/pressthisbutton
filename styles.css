@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#playerButton {
+    padding: 12px 24px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background: linear-gradient(120deg, #f093fb, #f5576c);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+  }
+  
+  #playerDisplay {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  #playerDisplay img {
+    max-width: 300px;
+  }
+
+  body {
+    background: linear-gradient(to right, #2d388a, #00aeef, #00ddff);
+
+  }
